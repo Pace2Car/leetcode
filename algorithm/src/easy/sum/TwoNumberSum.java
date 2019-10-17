@@ -19,7 +19,7 @@ public class TwoNumberSum {
     }
 
     /**
-     * 1.两数之和
+     * 1. 两数之和
      * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
      *
      * @param nums
@@ -38,6 +38,7 @@ public class TwoNumberSum {
     }
 
     /**
+     * 167. 两数之和 II - 输入有序数组
      * 给定一个已按照升序排列 的有序数组，找到两个数使得它们相加之和等于目标数。
      *
      * @param sortNumbers 有序数组
