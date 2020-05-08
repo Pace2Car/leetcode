@@ -10,7 +10,7 @@ import java.util.Stack;
  *     1.左括号必须用相同类型的右括号闭合。
  *     2.左括号必须以正确的顺序闭合。
  *
- * @author chenjiahao
+ * @author Pace2Car
  * @date 2019/8/23 17:53
  */
 public class ValidParenthesis {

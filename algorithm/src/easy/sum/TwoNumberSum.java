@@ -3,7 +3,7 @@ package easy.sum;
 /**
  * 两数求和
  *
- * @author chenjiahao
+ * @author Pace2Car
  * @date 2019/8/23 11:45
  */
 public class TwoNumberSum {

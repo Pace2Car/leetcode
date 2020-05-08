@@ -1,22 +1,24 @@
 package easy.string;
 
 /**
- * 14.最长公共前缀 -- 解题失败
+ * 14. 最长公共前缀 --解题失败
  * 编写一个函数来查找字符串数组中的最长公共前缀。
  *
  * 如果不存在公共前缀，返回空字符串 ""。
- * @author chenjiahao
+ *
+ * @author Pace2Car
  * @date 2019/8/23 16:55
  */
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
 
-        String[] strs = new String[]{"aflower","bflow","cflight"};
+        String[] strs = new String[]{"aflower","abflow","acflight"};
 //        String[] strs = new String[]{"a"};
 //        String[] strs = new String[]{"c", "c"};
 
         System.out.println(longestCommonPrefixAns(strs));
+        System.out.println(longestCommonPrefix(strs));
 
         System.out.println(System.currentTimeMillis() - start + "ms");
     }

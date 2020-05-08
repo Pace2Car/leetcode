@@ -1,13 +1,10 @@
 package easy.list.linkedlist;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 21. 合并两个有序链表  --解题失败
  * 将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
  *
- * @author chenjiahao
+ * @author Pace2Car
  * @date 2019/8/26 14:40
  */
 public class MergeTwoSortedLists {
@@ -44,28 +41,5 @@ public class MergeTwoSortedLists {
             l2.next = mergeTwoLists(l1, l2.next);
             return l2;
         }
-    }
-}
-
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-
-    @Override
-    public String toString() {
-        return getValueString(new ArrayList<>(), this);
-    }
-
-    private String getValueString(List<Integer> values, ListNode listNode) {
-        if (listNode != null) {
-            values.add(listNode.val);
-            getValueString(values, listNode.next);
-        }
-        return values.toString();
     }
 }

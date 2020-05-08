@@ -6,7 +6,7 @@ package easy.arr;
  * <p>
  * 你可以假设数组中无重复元素。
  *
- * @author chenjiahao
+ * @author Pace2Car
  * @date 2019/8/26 17:41
  */
 public class SearchInsert {

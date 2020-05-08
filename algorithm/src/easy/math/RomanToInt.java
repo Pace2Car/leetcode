@@ -17,7 +17,7 @@ package easy.math;
  * X 可以放在 L (50) 和 C (100) 的左边，来表示 40 和 90。 
  * C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
  *
- * @author chenjiahao
+ * @author Pace2Car
  * @date 2019/8/23 15:11
  */
 public class RomanToInt {
