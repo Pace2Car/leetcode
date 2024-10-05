@@ -14,9 +14,7 @@ package easy.dynamicprogram;
 public class ClimbStairs {
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-
         int a = 20;
-
         System.out.println(climbStairs(a));
 
         System.out.println(System.currentTimeMillis() - start + "ms");
